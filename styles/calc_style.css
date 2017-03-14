@@ -1,6 +1,6 @@
 body
 {
-    background-color: red;
+    background-color: palevioletred;
     font-family: Helvetica;
 }
 h1
@@ -10,15 +10,19 @@ h1
     margin-right: auto;
     display: block;
     width: 398px;
-
+    color: darkblue;
 }
 p1
 {
     font-size: 2em;
 }
+button
+{
+    color: white;
+}
 #calculator
 {
-    background-color: lightblue;
+    background-color: darkblue;
     width: 500px;
     height: 500px;
     display: block;
@@ -28,7 +32,7 @@ p1
     border-radius: 40px;
     padding: 40px;
 }
-input
+#input
 {
     display: block;
     background-color: darkgray;
@@ -37,13 +41,25 @@ input
     width: 480px;
     height: 80px;
     border-radius: 15px;
-    font-size: 2em;
+    font-size: 4em;
+    text-align: right;
+}
+#clear
+{
+    width: 65px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: indianred;
 }
 #numbers
 {
+    
     display: block;   
     float: left;
-    
     height: 400px;
     width: 80%;
 }
@@ -51,7 +67,6 @@ input
 {
     display: block;
     float: right;
-    background-color: bisque;
     height: 400px;
     width: 15%;
 }
@@ -63,6 +78,7 @@ input
     margin-left: 40px;
     margin-top: 40px;
     display: inline-block;
+    background-color: black;
 }
 .action
 {
@@ -73,6 +89,7 @@ input
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
+    background-color: indianred;
 }
 #zero
 {
